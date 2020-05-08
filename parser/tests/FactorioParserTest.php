@@ -5,14 +5,6 @@ use PHPUnit\Framework\TestCase;
 
 final class FactorioParserTest extends TestCase
 {
-//    private string $correctBlueString;
-
-/*    public function setUp() :void
-    {
-        $this->correctBlueString = '0eNrtXN1u2zYUfpVAl5tViD+SZaPb1ba7Al1boMCGwpBtJiFqS55EZwsKP8AeZC+2JxklxbIsk+KhIsXO4Fw0tX4+HZ2PPOfwfHS+OfPVlm1SHovZPEm+OtNvhyOZM';
-    }*/
-
-
     public function testValidBlueprint(): void
     {
         $correctBlueString = '0eNqllt1u4yAQhd+FayMF8E/jV6mqFSGjBBWDBXjTKPK7F8dda9tSZ6xeWbbhO4cZZuBGDmaA3msbSXsjWjkbSPt8I0GfrDTTt3jtgbRER+hIQazspjcZAnQHo+2JdlKdtQXKyFgQbY/wRlo2vhQEbNRRw8y7v1z/2KE7gE8DFlLopDEUDKjotaK9M5BkehfSXGcnA4lHm4Jc06Mcx+Ibiy+si3NHsFSdIcQMpF6BiAWibQAf07cfAVUOUGIA1QqgWg/ud1g5w0QKuwel5yx5Z+kJpKeXM4AhGZ160RlSsvzJu/SkBzC5kPF/ISvIUSeV+V9S/tgVboj9EHMyzSITvbShdz4+EBFfRDLQp81Q/hi6x2TuI9gslzm2w9uaObvPrngOyjavlT1eK+MbC0+srVtstYhZd4mHCjS0QkN3aGaNN8rQUHzZ4COKrxq8zz2aid7xHF9G6MRzfBVVaCbHNIw5Pdm64WJrq5/z8qnTyyG6Tk6DaFAarALaS/Waa8Ucczat+d16NPHf2a03ylW/k2u2tcRyJVBPiEBXK/P3X6wY2fU/HiJinG5Z93tZ+981riB/wYf76Ebs2L7mTDT1OL4DxDNM2g==';
