@@ -10,6 +10,11 @@ A simple parser for [Factorio](https://factorio.com/) blueprints.
 composer require zhukovsergei/factorio-blueprint-parser
 ```
 
+### Tests
+```
+make test
+```
+
 ### Features
 * Prase Blueprints
 * Parse Books
