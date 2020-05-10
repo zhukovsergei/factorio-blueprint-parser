@@ -19,24 +19,24 @@ composer require zhukovsergei/factorio-blueprint-parser
 ### Example
 ###### Create parser
 
-```
+```php
 $blueprint = '0eNqllNuOgjAQht9lrqmxLejKq2zMhsNomkDbtMVoDO++LbjoKhvAvaIH5vv/mbZzhbxqUBshHaRXEIWSFtLPK1hxlFkV1txFI6QgHNYQgczqMMsx879CG4GQJZ4hpW00GWRUrrQy7iGMtfsIUDrhBPbC3eTyJZs6R+O5QzRWWDgjCnJojMwK9FytrA/0Pryih5E4gkv4BL5XtmFdG1U2hRMnTyW1H1dIeBAOhp/E2BIx+k8x/lqXFxG2SnoVvkrGGPHAOGTWESEtGuc3/iwN825LYXxy3V48wkxmM+ls5uZe2LM2aC1xJpM2JE1yrEYyJ7fE6W84G4Fvn2/lK4x3MPp4VFYjllNn9LHcdzzb9245nM+G0/VkVdZvFoXS5cbZfONsOZ3+0Md4fLIQ794Oen9+uTiSoWdoVY01DH57zHF4y/teLIQODTiCExrbRWz5mu42jPLtpm2/ARxU4FE=';
 $bpp = new \App\BlueprintParser($blueprint);
 ```
 ###### Check if valid
 
-```
+```php
 \App\BlueprintParser::isValid($blueprint); // bool(true)
 ```
 
 ###### Check if book
 
-```
+```php
 $bpp->getIsBook(); // bool(false)
 ```
 
 ###### Get the content as an array
-```
+```php
 $parsed = $bpp->summary()->asArray();
 ```
 
@@ -60,13 +60,14 @@ $parsed = $bpp->summary()->asArray();
   int(6)
 }
 ```
+
 ###### or as JSON
 
-```
+```php
 $parsed = $bpp->summary()->asJson();
 ```
 
-```
+```php
 {"electric-furnace":2,"roboport":1,"fast-inserter":2,"express-transport-belt":5,"beacon":3,"big-electric-pole":1,"productivity-module-3":4,"speed-module-3":6}
 ```
 
@@ -77,7 +78,7 @@ This is extra icons basically represent the whole recipe.
 
 ![Icons and label](https://sun6-13.userapi.com/B1oRZgOu88Djf2n4d3BJNM-RAG3vIJStUTTlLQ/uVp36T0mzco.jpg)
 
-```
+```php
 $parsed = $bpp->getBlueprintExtra();
 ```
 
