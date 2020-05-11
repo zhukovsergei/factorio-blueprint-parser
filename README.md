@@ -1,4 +1,7 @@
 ![Factorio](https://factorio.com/static/img/factorio-logo.png)
+
+[![Build Status](https://travis-ci.com/zhukovsergei/factorio-blueprint-parser.svg?branch=master)](https://travis-ci.com/zhukovsergei/factorio-blueprint-parser)
+
 # Factorio Bblueprint Parser
 A simple parser for [Factorio](https://factorio.com/) blueprints.
 
